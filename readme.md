@@ -9,6 +9,7 @@ You will need:
 - Python 3
 - Cmake >= 3.12
 - A C compiler suite
+- Git
 
 First clone the repo and pull initialize submodules:
 ```bash
@@ -33,14 +34,6 @@ cmake version 3.17.2
 
 CMake suite maintained and supported by Kitware (kitware.com/cmake).
 ```
-
-Optionally, some examples will use Eigen, which you can clone from here:
-```console
-git clone https://gitlab.com/libeigen/eigen.git
-```
-
-Eigen is a header-only library, so you can use it from just the include directory, no install necessary.
-
 
 Basic Case
 ---
