@@ -35,6 +35,14 @@ cmake version 3.17.2
 CMake suite maintained and supported by Kitware (kitware.com/cmake).
 ```
 
+Build with CMake:
+```bash
+mkdir buld
+cd build
+cmake ..
+make
+```
+
 Basic Case
 ---
 
