@@ -1,13 +1,13 @@
 from setuptools_cmake import *
 
 setup(
-    name='ParLeastSquares',
+    name='linear_algebra',
     version='0.1',
     author='Asher Mancinelli',
     author_email='asher.mancinelli@pnnl.gov',
-    description='Dispatcher for multiple parallel runs of an LM least-squares solver',
+    description='Some cool linear algebra operations',
     long_description='',
-    ext_modules=[CMakeExtension('ParLeastSquares')],
+    ext_modules=[CMakeExtension('linear_algebra')],
     cmdclass=dict(build_ext=CMakeBuild),
     zip_safe=False,
 )
